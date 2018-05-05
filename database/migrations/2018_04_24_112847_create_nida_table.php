@@ -26,6 +26,9 @@ class CreateNidaTable extends Migration
 
             $table->string('personal_id');
 
+
+            $table->string('handle_id');
+       
            
             
             $table->timestamps();

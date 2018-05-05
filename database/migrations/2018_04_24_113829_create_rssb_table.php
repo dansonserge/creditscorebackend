@@ -18,6 +18,7 @@ class CreateRssbTable extends Migration
 
             $table->string('employee_id');
             $table->string('employee_salary');
+            $table->string('handle_id');
 
            
 

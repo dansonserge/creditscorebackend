@@ -24,6 +24,7 @@ Route::group(['middleware' => ['cors']], function () {
   Route::post('create_nida', 'CreditScoreController@create_nida');
   Route::get('get_nida_data', 'CreditScoreController@get_nida_data');
 
+  Route::post('create_rssb', 'CreditScoreController@create_rssb');
     
 });
 

@@ -44,7 +44,6 @@ class Kernel extends HttpKernel
             \Barryvdh\Cors\HandleCors::class,
         ],
     ];
-
     /**
      * The application's route middleware.
      *
